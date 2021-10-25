@@ -13,11 +13,11 @@ def main():
     parser.add_argument("--patch_height", type=int, 
                         help="Height of the patch to be tracked")
     parser.add_argument("--video_filepath", help="Path to video")
+    parser.add_argument("--n_particles", default=100, type=int,
+                        help="Number of particles to initialize pf with")
     parser.add_argument("--dynamic_model", default=False, type=bool)
     parser.add_argument("--alpha", default=0, type=float,
                             help="Alpha to update model if dynamic_model is True. Ignored otherwise")
-    parser.add_argument("--n_particles", default=100, type=int,
-                        help="Number of particles to initialize pf with")
     
     args = parser.parse_args()
 
