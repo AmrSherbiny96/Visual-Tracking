@@ -22,11 +22,11 @@ To use this code, you need a video and the coordinates of the patch that needs t
  - Template
  ![Template](template.png)
  - Frame 14
- ![Frame 14](Frame-14.png)
+ ![Frame 14](frame-14.png)
  - Frame 15
- ![Frame 15](Frame-15.png)
+ ![Frame 15](frame-15.png)
  - Frame 50
- ![Frame 50](Frame-50.png)
+ ![Frame 50](frame-50.png)
  
 
 
